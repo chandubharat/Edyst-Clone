@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel = "icon" href = "https://yt3.ggpht.com/a/AATXAJxszEEpc7rBjZPozkBh_9zx0RMaUQ_qJpuLjJN7=s900-c-k-c0x00ffffff-no-rj" type = "image/x-icon">
+        <title>Learn coding and get a job | Edyst</title>
+        <style>
+            * {
+            padding: 0;
+            margin: 0;
+            }
+            a {
+            text-decoration: none;
+            color: rgb(121, 65, 225);
+            }
+            button {
+            outline: none;
+            }
+            #disappear_this {
+            display: flex;
+            height: fit-content;
+            background-color: rgb(99, 51, 187);
+            color: white;
+            align-items: center;
+            padding: 10px;
+            padding-left: 100px;
+            text-align: center;
+            font-weight: 500;
+            }
+            .enroll {
+            background-color: rgb(72, 196, 93);
+            color: white;
+            font-size: 15px;
+            font-weight: 700;
+            border: none;
+            border-radius: 15px;
+            height: fit-content;
+            width: fit-content;
+            padding: 7px;
+            margin-left: 1%;
+            margin-right: 1%;
+            }
+            .enroll:hover {
+            cursor: pointer;
+            background-color: rgb(59, 161, 76);
+            }
+            .cross {
+            color: red;
+            background-color: rgb(76, 42, 145);
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            margin-left: auto;
+            margin-right: 50px;
+            border: none;
+            outline: none;
+            }
+            .cross:hover {
+            cursor: pointer;
+            background-color: rgb(54, 30, 104);
+            }
+            .navbar {
+            background-color: rgb(121, 65, 225);
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+            text-align: center;
+            }
+            .nav_edyst {
+            padding-left: 5%;
+            font-size: 35px;
+            font-weight: bolder;
+            color: white;
+            }
+            .nav_edyst:hover {
+            cursor: pointer;
+            }
+            .nav_img {
+            height: 40px;
+            border-radius: 5%;
+            padding: 5xp;
+            margin-left: 10px;
+            }
+            .nav_img:hover {
+            cursor: pointer;
+            }
+            .nav_con {
+            display: inline-block;
+            font-size: 15px;
+            color: white;
+            padding: 10px;
+            }
+            .nav_right {
+            display: flex;
+            list-style-type: none;
+            align-items: center;
+            font-weight: bolder;
+            }
+            .nav_con:hover {
+            cursor: pointer;
+            color: black;
+            }
+            .vl {
+            display: inline-block;
+            font-size: 20px;
+            font-weight: bolder;
+            color: white;
+            padding: 10px;
+            }
+            .vl:hover {
+            cursor: default;
+            }
+            .foot {
+            background-color: rgb(54, 54, 54);
+            }
+            .foot_list {
+            list-style-type: none;
+            color: white;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 50px;
+            }
+            .foot_con {
+            display: inline-block;
+            padding: 10px;
+            color: rgb(173, 173, 173);
+            }
+            .vl1 {
+            display: inline-block;
+            }
+            .footer_li {
+            justify-content: center;
+            }
+            .hr {
+            color: white;
+            width: 75%;
+            margin: auto;
+            }
+            .foot_img_sec {
+            text-align: center;
+            }
+            .footer_img {
+            height: 40px;
+            border-radius: 50%;
+            background-color: white;
+            margin: 20px;
+            }
+            .footer_img:hover {
+            cursor: pointer;
+            opacity: 0.7;
+            }
+            .foot_con_1:hover {
+            cursor: pointer;
+            color: rgb(255, 255, 255);
+            }
+            .contact {
+            display: flex;
+            margin-left: 60%;
+            }
+            .contacts {
+            display: flex;
+            border: 2px solid rgb(219, 219, 219);
+            margin: 10px;
+            text-align: center;
+            border-radius: 20px;
+            width: 200px;
+            height: 40px;
+            }
+            .contacts:hover {
+            cursor: pointer;
+            box-shadow: 0px 2px 5px -1px #afafaf;
+            }
+            .wt {
+            height: 30px;
+            margin: auto;
+            }
+            .phn {
+            height: 30px;
+            border-radius: 50%;
+            margin: auto;
+            }
+            .contact_lol {
+            display: inline-block;
+            margin: auto;
+            color: rgb(109, 106, 106);
+            }
+            #typewriter {
+            margin: 20px;
+            text-align: center;
+            }
+            #company {
+            color: rgb(121, 65, 225);
+            }
+            .brothers_container {
+            margin-bottom: 2%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            }
+            .brothers {
+            box-shadow: 0px 5px 20px 0px #afafaf;
+            width: 65%;
+            height: 350px;
+            align-items: center;
+            border-radius: 10px;
+            background: none;
+            font-weight: lighter;
+            }
+            .left_click {
+            font-size: 30px;
+            font-weight: lighter;
+            margin: 10px;
+            }
+            .left_click:hover {
+            cursor: pointer;
+            outline: double black;
+            }
+            .right_click {
+            font-size: 30px;
+            font-weight: lighter;
+            margin: 10px;
+            }
+            .right_click:hover {
+            cursor: pointer;
+            outline: double black;
+            }
+            .none {
+            display: none;
+            }
+            .vid_bro {
+            height: 210px;
+            width: 35%;
+            margin: 20px;
+            }
+            .zenoti_logo {
+            height: 50px;
+            margin: 20px;
+            }
+            .bro_p {
+            max-width: 600px;
+            font-size: 18px;
+            color: rgb(97, 97, 97);
+            margin: 25px;
+            line-height: 25px;
+            }
+            .bro_content {
+            text-align: center;
+            }
+            .bro_name {
+            font-size: 22px;
+            margin: 10px;
+            }
+            .highlight {
+            color: rgb(121, 65, 225);
+            font-weight: 600;
+            }
+            .img_bro {
+            height: 100%;
+            width: 40%;
+            margin-right: 3%;
+            border-radius: 5px;
+            }
+            .free_module {
+            border: none;
+            background-color: rgb(72, 196, 93);
+            color: white;
+            font-size: 15px;
+            font-weight: 800;
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 25px;
+            }
+            .free_module:hover {
+            cursor: pointer;
+            background-color: rgb(59, 161, 76);
+            }
+            .small_sec {
+            height: 100px;
+            background-color: rgb(241, 241, 241);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: lighter;
+            }
+            .works_at {
+            text-align: center;
+            margin: 40px;
+            margin-top: 100px;
+            }
+            .companiees {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 20px;
+            }
+            .company_name {
+			height:50px;
+            margin: 10px;
+            }
+            .why_edyst {
+            text-align: center;
+            padding: 25px;
+            }
+            .why_edyst_vid {
+            height: 500px;
+            width: 99.5%;
+            }
+            .h1_pic {
+            padding: 50px;
+            color: white;
+            }
+            .crazy_pic {
+            text-align: center;
+            background-color: rgb(121, 65, 225);
+            }
+            .crazy_photo {
+            width: 60%;
+            }
+            .y_combinator_sec {
+            background-color: rgb(158, 158, 158);
+            padding: 50px;
+            text-align: center;
+            background-image: url("https://wallpaperset.com/w/full/6/f/b/380493.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.8;
+            }
+            .y_sub_sec {
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+            .y_combo_pic {
+            width: 50px;
+            }
+            .y_comb_p {
+            max-width: 750px;
+            color: white;
+            font-size: 22px;
+            margin: auto;
+            line-height: 25px;
+            padding: 50px;
+            padding-top: 20px;
+            font-weight: bold;
+            }
+            .edyst_comb {
+            font-size: 35px;
+            padding: 20px;
+            }
+            .read_more {
+            text-align: center;
+            font-size: 20px;
+            border: 1px solid white;
+            border-radius: 25px;
+            width: 200px;
+            padding: 15px;
+            color: white;
+            background-color: transparent;
+            }
+            .read_more:hover {
+            cursor: pointer;
+            background-color: rgb(192, 192, 192);
+            color: black;
+            }
+            .que_main_sec {
+            margin: 100px;
+            }
+            .question_sec {
+            box-shadow: 0px 0px 20px 0px #d6d6d6;
+            max-width: 70%;
+            padding: 30px;
+            margin: auto;
+            }
+            .freq {
+            text-align: center;
+            }
+            .ques_head {
+            color: rgb(121, 65, 225);
+            width: 100%;
+            text-align: left;
+            border: none;
+            background-color: transparent;
+            display: block;
+            outline: none;
+            font-size: 16px;
+            padding: 20px;
+            border-bottom: 1px solid rgb(245, 245, 245);
+            }
+            .ques_head:hover {
+            background-color: rgb(245, 245, 245);
+            }
+            .ques_head:hover {
+            cursor: pointer;
+            }
+            .purple_high {
+            color: rgb(121, 65, 225);
+            font-weight: bolder;
+            }
+            .black_high {
+            color: black;
+            font-weight: 700;
+            }
+            .content {
+            display: none;
+            background-color: rgb(245, 245, 245);
+            padding: 25px;
+            padding-left: 40px;
+            }
+            ol {
+            padding: 25px;
+            }
+            .web_development {
+            margin: auto;
+            }
+            .scrollmenu {
+            overflow: auto;
+            white-space: nowrap;
+            max-width: 70%;
+            box-shadow: 0px 0px 50px 0px #d6d6d6;
+            margin: auto;
+            }
+            .web_dev_vid {
+            height: 300px;
+            width: 500px;
+            }
+
+            .new_vids_edyst {
+            text-align: center;
+            margin: 25px;
+            }
+            .edyst_courses {
+            background: -webkit-linear-gradient(top, rgb(121, 65, 225) 90%, white 0%);
+            margin-bottom: 50px;
+            }
+            .course_heading {
+            color: white;
+            text-align: center;
+            padding: 30px;
+            }
+            .course_main {
+            display: flex;
+            margin: auto;
+            margin-bottom: 20px;
+            justify-content: space-between;
+            background-color: white;
+            box-shadow: 0px 10px 20px 0px #c5c5c5;
+            width: fit-content;
+            padding: 15px;
+            }
+            .diwali {
+            height: 50px;
+            margin-right: 20%;
+            }
+            .course_name {
+            color: rgb(156, 156, 156);
+            max-width: 300px;
+            padding: 10px;
+            }
+            .includes {
+            color: white;
+            background-color: rgb(121, 65, 225);
+            padding: 10px;
+            width: fit-content;
+            }
+            .amount {
+            color: rgb(156, 156, 156);
+            }
+            .amount_original {
+            color: rgb(172, 172, 172);
+            text-decoration: line-through;
+            }
+            .sale {
+            color: rgb(110, 64, 64);
+            }
+            .duration {
+            color: rgb(156, 156, 156);
+            }
+            .duration_time {
+            color: rgb(156, 156, 156);
+            }
+            .validity {
+            color: rgb(156, 156, 156);
+            }
+            .validity_time {
+            color: rgb(156, 156, 156);
+            }
+            .start_now_now {
+            font-size: 15px;
+            font-weight: 700;
+            color: white;
+            background-color: rgb(235, 125, 0);
+            border: none;
+            box-shadow: 0px 5px 20px 0px #c5c5c5;
+            padding: 15px;
+            padding-left: 50px;
+            padding-right: 50px;
+            border-radius: 10px;
+            display: inline-block;
+            margin-top: 10px;
+            }
+            .start_now_now_diff {
+            width: 100px;
+            font-size: 15px;
+            font-weight: 700;
+            color: white;
+            background-color: rgb(235, 125, 0);
+            border: none;
+            box-shadow: 0px 5px 20px 0px #c5c5c5;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            margin-top: 30px;
+            }
+            .start_now_now:hover {
+            cursor: pointer;
+            background-color: rgb(224, 122, 4);
+            box-shadow: 0px 10px 20px 0px #c5c5c5;
+            }
+            .start_now_now_diff:hover {
+            cursor: pointer;
+            background-color: rgb(224, 122, 4);
+            box-shadow: 0px 10px 20px 0px #c5c5c5;
+            }
+            .right_sec {
+            text-align: right;
+            margin: 20px;
+            }
+            .multiple_courses {
+            display: flex;
+            flex-wrap: wrap;
+            }
+            .hallow {
+            height: 300px;
+            width: 300px;
+            }
+            .li_a {
+            list-style-type: circle;
+            color: rgb(156, 156, 156);
+            margin: 25px;
+            padding: 15px;
+            }
+            .li_b {
+            max-width: 200px;
+            }
+            .li_x {
+            max-width: 300px;
+            }
+            .course_mains {
+            justify-content: space-between;
+            background-color: white;
+            box-shadow: 0px 10px 20px 0px #c5c5c5;
+            width: fit-content;
+            padding: 10px;
+            margin: auto;
+            margin-bottom: 20px;
+            }
+            .course_subs {
+            display: flex;
+            }
+            .h2_center {
+            text-align: center;
+            }
+            .bootcamp_courses {
+            height: 300px;
+            width: 600px;
+            border-radius: 10px;
+            }
+            .language_courses {
+            height: 300px;
+            width: 600px;
+            border-radius: 10px;
+            }
+            .campus_placement {
+            height: 320px;
+            width: 500px;
+            border-radius: 10px;
+            }
+            .daily_challenges {
+            height: 275px;
+            width: 450px;
+            border-radius: 10px;
+            }
+
+            @media (max-width: 1000px) {
+            .nav_con {
+                display: none;
+            }
+            .vl {
+                display: none;
+            }
+            .contact {
+                margin-left: 40%;
+            }
+            .why_edyst_vid {
+                width: 99%;
+            }
+            .brothers {
+                flex: 1;
+            }
+            }
+            @media (max-width: 700px) {
+            .nav_img {
+                display: none;
+            }
+            .enroll {
+                padding: 2px;
+                border-radius: 2px;
+            }
+            .brothers_container {
+                display: none;
+            }
+            }
+            @import url("https://fonts.googleapis.com/css2?family=Heebo&family=Lato:ital,wght@0,100;1,100&display=swap");
+            h1,
+            h2,
+            h3 {
+            font-family: "Heebo", sans-serif;
+            }
+            p,
+            span,
+            div,
+            section,
+            li {
+            font-family: "Lato", sans-serif;
+            }
+
+        </style>
+    </head>
+    <body>
+        <section id="disappear_this">
+            <p>🚀 Kick-off Your WIPRO Elite NTH 2021 with Edyst Test Preparation Pack</p>
+            <button class="enroll">Enroll Now!</button>
+            <button class="cross" onclick="myFunction()">X</button>
+          </section>
+          <nav class="navbar">
+            <p class="nav_edyst">edyst</p>
+            <ul class="nav_right">
+              <li>
+                <p class="nav_con">Courses</p>
+              </li>
+              <li>
+                <p class="vl">|</p>
+              </li>
+              <li>
+                <p class="nav_con">Testimonials</p>
+              </li>
+              <li>
+                <p class="vl">|</p>
+              </li>
+              <li><img class="nav_img" src="https://creekside.patterson.k12.ca.us/UserFiles/Servers/Server_18037253/Templates/login-google.png" alt="img"></li>
+              <li><img class="nav_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdOxErBYSFlTErMXJEO6ybmGenS2P2Kgy7eXSY6Zny2M891xsgO049REi-mRfxdEwDsaQ&usqp=CAU" alt="img"></li>
+            </ul>
+          </nav>
+          <div class="contact">
+            <span class="contacts">
+              <img class="wt" src="https://i.pinimg.com/originals/99/0b/7d/990b7d2c2904f8cd9bc884d3eed6d003.png" alt="img">
+              <p class="contact_lol">Whatsapp Counsellor</p>
+            </span>
+            <span class="contacts">
+              <img class="phn" src="https://www.pngitem.com/pimgs/m/70-702445_phone-logo-green-background-hd-png-download.png" alt="img">
+              <p class="contact_lol">+919121****54</p>
+            </span>
+          </div>
+          <div>
+            <h1 id="typewriter">Learn coding and work at <span id="company"></span></h1>
+          </div>
+          <div class="brothers_container">
+            <span class="left_click" onclick="plusDivs(-1)">&#10094;</span>
+            <section class="brothers none">
+              <img class="img_bro" src="https://techloverenterprises.com/wp-content/uploads/2020/10/The-Web-Developer-Bootcamp2-600x338.jpg" alt="img">
+              <section class="bro_content">
+                <h1 class="bro_name">Web Master Bootcamp</h1>
+                <p class="bro_p">Become a Web Master and kickstart your career by learning Full Stack Web Technologies like <span class="highlight">HTML, CSS, JavaScript, Python, Flask, AWS & React</span>.Do 200+ exercises, 10 Frontend projects and 3 Fullstack projects.Learn through <span class="highlight">Live Doubt Clearing Sessions, Videos, Peer-learning</span>, and support from <span class="highlight">Online mentors</span>.</p>
+                <button class="free_module">Try 1 Free Module Now</button>
+              </section>
+            </section>
+            <section class="brothers none">
+              <img class="img_bro" src="https://avatars.githubusercontent.com/u/10178994?s=280&v=4" alt="img">
+              <section class="bro_content">
+                <h1 class="bro_name">Algorithms & Data Structures Bootcamp</h1>
+                <p class="bro_p">Level up and crack product-based companies coding rounds and interviews. Designed with 300+ of the most asked questions from companies like <span class="highlight">Amazon,Facebook, Google, Microsoft, JP Morgan, and ServiceNow</span> with a combination of <span class="highlight">live classes, mentor support from experienced mentors,weekly assesments and hackathons</span>.</p>
+                <button class="free_module">Try 1 Free Module Now</button>
+              </section>
+            </section>
+            <section class="brothers none">
+              <img class="img_bro" src="https://brandslogos.com/wp-content/uploads/images/large/java-logo-black-and-white-1.png" alt="img">
+              <section class="bro_content">
+                <h1 class="bro_name">Java Programming: Intro + Advanced</h1>
+                <p class="bro_p">he program is designed to help you learn <span class="highlight">Java from Foundational to Advanced level</span>, with no prior programming experience.This course helps you prepare for software services companies like <span class="highlight">TCS, Wipro, IBM, Accenture, Capgemini, Virtusa</span> etc. with salaries starting from <span class="highlight">Rs.2.4 to 6 lakh/annum</span>.</p>
+                <button class="free_module">Try 1 Free Module Now</button>
+              </section>
+            </section>
+            <section class="brothers none">
+              <iframe class="vid_bro" src="https://www.youtube.com/embed/wbeWXURZiIM"></iframe>
+              <section class="bro_content">
+                <h1 class="bro_name">Sai Abhilash</h1>
+                <p class="bro_p">I received <span class="highlight">5 job offers</span> through Edyst's hiring partners. Through Edyst's <span class="highlight">100% online</span> and gamified learning platform, I wrote more than <span class="highlight">10,000 lines</span> of code and spent <span class="highlight">250 hours</span> on the platform. Edyst is the most fun way to learn and get a job.</p>
+                <img class="zenoti_logo" src="https://s3-ap-south-1.amazonaws.com/startupuploads/wp-content/uploads/2019/05/03175848/Zenoti-Logo-High-Res.png" alt="img">
+              </section>
+            </section>
+            <section class="brothers none">
+              <iframe class="vid_bro" src="https://www.youtube.com/embed/uygSidgA9ek"></iframe>
+              <section class="bro_content">
+                <h1 class="bro_name">Simon Babu</h1>
+                <p class="bro_p">I now work as a Software Developer at Zenoti. I am from <span class="highlight">Ece Branch</span> and learnt programming from scratch. By the end of the program I was <span class="highlight">very confident to attend and crack technical interviews</span>, both at hands-on programming and also technical interview rounds. A big <span class="highlight">thanks to Edyst!</span></p>
+                <img class="zenoti_logo" src="https://s3-ap-south-1.amazonaws.com/startupuploads/wp-content/uploads/2019/05/03175848/Zenoti-Logo-High-Res.png" alt="img">
+              </section>
+            </section>
+            <section class="brothers none">
+              <iframe class="vid_bro" src="https://www.youtube.com/embed/0OqHt-ZdLg8"></iframe>
+              <section class="bro_content">
+                <h1 class="bro_name">Durga Sai Prasad</h1>
+                <p class="bro_p">I received <span class="highlight">7 interview opportunities</span> because of Edyst. That is the most exciting part about Edyst - that we get <span class="highlight">interview opportunities</span> while we are doing the course. All the tutorials and challenges helped me <span class="highlight">succeed at interviews</span></p>
+                <img class="zenoti_logo" src="https://s3-ap-south-1.amazonaws.com/startupuploads/wp-content/uploads/2019/05/03175848/Zenoti-Logo-High-Res.png" alt="img">
+              </section>
+            </section>
+            <span class="right_click" onclick="plusDivs(1)">&#10095;</span>
+          </div>
+  
+          <div class="small_sec">
+            <h2><span class="highlight">10,000+ learners</span> trust Edyst with their career. Join us now</h2>
+          </div>
+  
+          <div class="edyst_courses">
+            <h1 class="course_heading">Bootcamps</h1>
+            <div class="multiple_courses">
+              <div class="course_main bootcamp_courses">
+                <section>
+                  <h2 class="course_name">Web Master Bootcamp: Frontend + Backend</h2>
+                  <ul class="li_a">
+                    <li class="li_x">Frontend: HTML, CSS, Javascript, ReactJS</li>
+                    <li class="li_x">Backend: Python, Flask, SQL+AWS, Docker</li>
+                    <li class="li_x">3 projects in Full Stack Web Development</li>
+                  </ul>
+                  <p class="includes">Includes Masterclasses</p>
+                </section>
+                <section class="right_sec">
+                  <h2 class="amount">Rs. 6,999</h2>
+                  <h2 class="amount_original">Rs. 25,000</h2>
+                  <img class="diwali" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTogf824Z7yWYIGaTIQv3UFwziXcfz9T6fj9KiECOAC17qIoFuYsleD-OGBysbSmOSpa-A&usqp=CAU" alt="img">
+                  <h2 class="sale">Diwali Sale!</h2>
+                  <p class="duration">Duration:<h3 class="duration_time">4 months</h3>
+                  </p>
+                  <p class="validity">Validity:<h3 class="validity_time">12 months</h3>
+                  </p>
+                  <button class="start_now_now">Start Now!</button>
+                </section>
+              </div>
+              <div class="course_main bootcamp_courses">
+                <section>
+                  <h2 class="course_name">Algorithms & Data Structures Bootcamp</h2>
+                  <ul class="li_a">
+                    <li class="li_x">Basic coding skills required</li>
+                    <li class="li_x">300+ questions from product companies</li>
+                    <li class="li_x">Assessments, Hackathons and Live Sessions included</li>
+                  </ul>
+                  <p class="includes">Includes Masterclasses</p>
+                </section>
+                <section class="right_sec">
+                  <h2 class="amount">Rs. 6,999</h2>
+                  <h2 class="amount_original">Rs. 25,000</h2>
+                  <img class="diwali" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTogf824Z7yWYIGaTIQv3UFwziXcfz9T6fj9KiECOAC17qIoFuYsleD-OGBysbSmOSpa-A&usqp=CAU" alt="img">
+                  <h2 class="sale">Diwali Sale!</h2>
+                  <p class="duration">Duration:<h3 class="duration_time">4 months</h3>
+                  </p>
+                  <p class="validity">Validity:<h3 class="validity_time">12 months</h3>
+                  </p>
+                  <button class="start_now_now">Start Now!</button>
+                </section>
+              </div>
+            </div>
+          </div>
+          <div class="edyst_courses">
+            <h1 class="course_heading">Learn a language: Python & Java</h1>
+            <div class="multiple_courses">
+              <div class="course_main language_courses">
+                <section>
+                  <h2 class="course_name">Python Programming: Intro + Advanced</h2>
+                  <ul class="li_a">
+                    <li class="li_x">For students looking to start their career in AI/ML or Web Development</li>
+                    <li class="li_x">Starts from basics, and covers all advanced topics</li>
+                    <li class="li_x">No prior programming experience required</li>
+                  </ul>
+                  <p class="includes">200+ Enrollments</p>
+                </section>
+                <section class="right_sec">
+                  <h2 class="amount">Rs. 3,999</h2>
+                  <h2 class="amount_original">Rs. 7,999</h2>
+                  <img class="diwali" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTogf824Z7yWYIGaTIQv3UFwziXcfz9T6fj9KiECOAC17qIoFuYsleD-OGBysbSmOSpa-A&usqp=CAU" alt="img">
+                  <h2 class="sale">Diwali Sale!</h2>
+                  <p class="duration">Avg Package:<h3 class="duration_time">2.4 - 6 lakhs p.a.</h3>
+                  </p>
+                  <p class="validity">Duration:<h3 class="validity_time">14 weeks</h3>
+                  </p>
+                  <button class="start_now_now">Start Now!</button>
+                </section>
+              </div>
+              <div class="course_main language_courses">
+                <section>
+                  <h2 class="course_name">Java Programming: Intro + Advanced</h2>
+                  <ul class="li_a">
+                    <li class="li_x">Ideal for candidates looking for a job in IT services companies</li>
+                    <li class="li_x">No prior programming experienced required</li>
+                  </ul>
+                  <p class="includes">300+ Enrollments</p>
+                </section>
+                <section class="right_sec">
+                  <h2 class="amount">Rs. 3,999</h2>
+                  <h2 class="amount_original">Rs. 7,999</h2>
+                  <img class="diwali" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTogf824Z7yWYIGaTIQv3UFwziXcfz9T6fj9KiECOAC17qIoFuYsleD-OGBysbSmOSpa-A&usqp=CAU" alt="img">
+                  <h2 class="sale">Diwali Sale!</h2>
+                  <p class="duration">Avg Package:<h3 class="duration_time">2.4 - 6 lakhs p.a.</h3>
+                  </p>
+                  <p class="validity">Duration:<h3 class="validity_time">14 weeks</h3>
+                  </p>
+                  <button class="start_now_now">Start Now!</button>
+                </section>
+              </div>
+            </div>
+          </div>
+          <div class="edyst_courses">
+            <h1 class="course_heading">Campus Placement Courses</h1>
+            <div class="multiple_courses">
+              <div class="course_main campus_placement">
+                <section>
+                  <h2 class="course_name">Complete Coding Test & Interview Preparation Pack</h2>
+                  <ul class="li_a">
+                    <li class="li_b">For students preparing for top-tier software companies</li>
+                    <li class="li_b">Prior programming experience in any one language (C/C++/Java/Python)</li>
+                  </ul>
+                  <p class="includes">250+ Enrollments</p>
+                </section>
+                <section class="right_sec">
+                  <h2 class="amount">Rs. 2,499</h2>
+                  <h2 class="amount_original">Rs. 3,999</h2>
+                  <img class="diwali" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTogf824Z7yWYIGaTIQv3UFwziXcfz9T6fj9KiECOAC17qIoFuYsleD-OGBysbSmOSpa-A&usqp=CAU" alt="img">
+                  <h2 class="sale">Diwali Sale!</h2>
+                  <p class="duration">Avg Package:<h3 class="duration_time">3.3 - 6 lakhs p.a.</h3>
+                  </p>
+                  <p class="validity">Validity:<h3 class="validity_time">12 months</h3>
+                  </p>
+                  <button class="start_now_now">Start Now!</button>
+                </section>
+              </div>
+              <div class="course_main campus_placement">
+                <section>
+                  <h2 class="course_name">WIPRO Elite National Talent Hunt 2021</h2>
+                  <ul class="li_a">
+                    <li class="li_b">All previously asked questions</li>
+                    <li class="li_b">Ideal for students preparing for WIPRO</li>
+                  </ul>
+                  <p class="includes">250+ Enrollments</p>
+                </section>
+                <section class="right_sec">
+                  <h2 class="amount">Rs. 799</h2>
+                  <h2 class="amount_original">Rs. 1599</h2>
+                  <img class="diwali" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTogf824Z7yWYIGaTIQv3UFwziXcfz9T6fj9KiECOAC17qIoFuYsleD-OGBysbSmOSpa-A&usqp=CAU" alt="img">
+                  <h2 class="sale">Diwali Sale!</h2>
+                  <p class="validity">Validity:<h3 class="validity_time">60 days</h3>
+                  </p>
+                  <button class="start_now_now">Start Now!</button>
+                </section>
+              </div>
+              <div class="course_main campus_placement">
+                <section>
+                  <h2 class="course_name">TCS NQT 2021 Preparation Pack</h2>
+                  <ul class="li_a">
+                    <li class="li_b">For students preparing for TCS NQT 2021</li>
+                    <li class="li_b">Covering Aptitude & Programming Concepts</li>
+                  </ul>
+                  <p class="includes">100+ Participants</p>
+                </section>
+                <section class="right_sec">
+                  <h2 class="amount">Rs. 999</h2>
+                  <h2 class="amount_original">Rs. 1999</h2>
+                  <img class="diwali" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTogf824Z7yWYIGaTIQv3UFwziXcfz9T6fj9KiECOAC17qIoFuYsleD-OGBysbSmOSpa-A&usqp=CAU" alt="img">
+                  <h2 class="sale">Diwali Sale!</h2>
+                  <p class="validity">Validity:<h3 class="validity_time">2 months</h3>
+                  </p>
+                  <button class="start_now_now">Start Now!</button>
+                </section>
+              </div>
+            </div>
+          </div>
+          <div class="edyst_courses">
+            <h1 class="course_heading">Daily Challenges</h1>
+            <div class="multiple_courses">
+              <div class="course_mains daily_challenges">
+                <h2 class="course_name h2_center">September 2020 7 Day Coding Challenge</h2>
+                <div class="course_subs">
+                  <section>
+                    <ul class="li_a">
+                      <li class="li_b">Starts from 24th Sept, 2020</li>
+                      <li class="li_b">Basic coding ability required</li>
+                    </ul>
+                    <p class="includes">10,000+ Participants</p>
+                  </section>
+                  <section class="right_sec">
+                    <p class="validity">Validity:<h3 class="validity_time">7 days</h3>
+                    </p>
+                    <button class="start_now_now_diff">Start Now!</button>
+                  </section>
+                </div>
+              </div>
+              <div class="course_mains daily_challenges">
+                <h2 class="course_name h2_center">July 2020 10 Day Coding Challenge</h2>
+                <div class="course_subs">
+                  <section>
+                    <ul class="li_a">
+                      <li class="li_b">Starts from 6th July, 2020</li>
+                      <li class="li_b">No prerequisites: just your curiosity to learn and code</li>
+                    </ul>
+                    <p class="includes">10,000+ Participants</p>
+                  </section>
+                  <section class="right_sec">
+                    <p class="validity">Validity:<h3 class="validity_time">10 days</h3>
+                    </p>
+                    <button class="start_now_now_diff">Start Now!</button>
+                  </section>
+                </div>
+              </div>
+              <div class="course_mains daily_challenges">
+                <h2 class="course_name h2_center">April 10-Day Challenge</h2>
+                <div class="course_subs">
+                  <section>
+                    <ul class="li_a">
+                      <li class="li_b">This challenge has completed. You can still join and check out the previously asked questions</li>
+                      <li class="li_b">No prerequisites: just your curiosity to learn and code</li>
+                    </ul>
+                    <p class="includes">10,000+ Participants</p>
+                  </section>
+                  <section class="right_sec">
+                    <p class="validity">Validity:<h3 class="validity_time">10 days</h3>
+                    </p>
+                    <button class="start_now_now_diff">Start Now!</button>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="works_at">
+            <h1>Edyst Students Works At</h1>
+            <div class="companiees">
+              <img class="company_name" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUJ9OFkH5OoyUz_DagTYmgOJx0LW6Pt9d1z7guphS_ah7jZfEAieBgrVRbb0qVaUU1VQ&usqp=CAU" alt="img">
+              <img class="company_name" src="https://go.zenoti.com/spa-software-a-cp/images/logo.png" alt="img">
+              <img class="company_name" src="https://www.wipro.com/content/dam/nexus/en/wipro-logo-new-og-502x263.jpg" alt="img">
+              <img class="company_name" src="https://i.ytimg.com/vi/4lIZ0v4viI4/maxresdefault.jpg" alt="img">
+              <img class="company_name" src="https://uploads-ssl.webflow.com/609e39df448746728ffa58a1/60e01b5f9d6c02240c879e2d_Hooper_Full_Transaprent.png" alt="img">
+              <img class="company_name" src="https://jobs.vibhaga.com/wp-content/uploads/2018/08/Virtusa-Logo-2.jpg" alt="img">
+            </div>
+          </div>
+          <div>
+            <h1 class="why_edyst">Why Edyst?</h1>
+            <iframe class="why_edyst_vid" src="https://www.youtube.com/embed/8SMCRDyzwOc"></iframe>
+          </div>
+          <div class="crazy_pic">
+            <h1 class="h1_pic">Compete. Collaborate. Get a Job.</h1>
+            <img class="crazy_photo" src="https://cloudfront.edyst.com/prod/edyst-image-upoad/1582794847_demo_dashboard.webp">
+          </div>
+  
+          <div class="web_development">
+            <h1 class="new_vids_edyst">New Videos regarding Web Development by Edyst</h1>
+            <section class="scrollmenu">
+              <iframe class="web_dev_vid" src="https://www.youtube.com/embed/5qpgzDhX6U8"></iframe>
+              <iframe class="web_dev_vid" src="https://www.youtube.com/embed/8ipewg68Iek"></iframe>
+              <iframe class="web_dev_vid" src="https://www.youtube.com/embed/myTzpGomIZg"></iframe>
+              <iframe class="web_dev_vid" src="https://www.youtube.com/embed/w5C2B7HlN9k"></iframe>
+              <iframe class="web_dev_vid" src="https://www.youtube.com/embed/6i-LcEAF_E8"></iframe>
+              <iframe class="web_dev_vid" src="https://www.youtube.com/embed/P49UUIB-kvM"></iframe>
+              <iframe class="web_dev_vid" src="https://www.youtube.com/embed/fNldfZUUCKo"></iframe>
+              <iframe class="web_dev_vid" src="https://www.youtube.com/embed/Po0nOsXqzQ4"></iframe>
+              <iframe class="web_dev_vid" src="https://www.youtube.com/embed/T05o4cqdgxo"></iframe>
+              <iframe class="web_dev_vid" src="https://www.youtube.com/embed/k19rQJHVNP8"></iframe>
+              <iframe class="web_dev_vid" src="https://www.youtube.com/embed/udAc-zCkv5w"></iframe>
+              <iframe class="web_dev_vid" src="https://www.youtube.com/embed/yZaeIQ7xtPQ"></iframe>
+              <iframe class="web_dev_vid" src="https://www.youtube.com/embed/_kwiJxnsfKk"></iframe>
+              <iframe class="web_dev_vid" src="https://www.youtube.com/embed/BHKS22Z5xgY"></iframe>
+            </section>
+          </div>
+  
+          <div class="que_main_sec">
+            <div class="question_sec">
+              <h1 class="freq">Frequently asked questions</h1>
+              <button class="ques_head">Which program should I choose?</button>
+              <section class="content">
+                <p>Edyst offers a range of job-oriented courses which help you skill yourself in Programming;</p>
+                <ol>
+                  <li><span class="purple_high">Programming Fundamentals + Advanced:</span> This program is for anyone, right from beginners with no programming exposure to someone with foundational programming skills. The program is designed to get you 100% ready for job interviews. You have a choice to pick up either Java or Python as a programming language you want to learn. This course helps you get jobs into Software services companies like TCS, Wipro, IBM, Accenture, Capgemini, Virtusa etc. with salaries starting from Rs. 2.4 to 6 lakh/ annum.</li>
+                  <li><span class="purple_high">Advanced Algorithms and Data Structures Bootcamp:</span> This course is for people who are familiar with at least one programming language, and can translate basic logic to code. This program helps you prepare for the most asked Algorithms & Data Structures questions during interviews at Product Companies like Amazon, Google, Uber, Facebook, Flipkart, Lenskart, Zenoti etc. with salaries starting from Rs. 8 to 15+ lakh per annum.</li>
+                  <li><span class="purple_high">Campus Placement Courses:</span> This is a set of courses that will help you prepare for company-specific placement drives (TCS, Wipro, Infosys etc). This has previous year questions and solutions.</li>
+                </ol>
+                <p><span class="black_high">Complete Coding Test & Interview Preparation Pack:</span> This is for you to practice and get ready to succeed at coding rounds at top-tier companies with the complete Coding Tests & Interview Preparation Pack for companies like <span class="black_high">TCS, Wipro, Infosys, Accenture, Cognizant, IBM etc. This pack has over 200+ Coding questions, MCQs</span> from previous year tests.</p>
+                <p>This course is for people who are familiar with at least one programming language.</p>
+              </section>
+              <button class="ques_head">What is the medium of instruction?</button>
+              <section class="content">
+                <p>All the courses on Edyst are 100% online and ideal for students who want to take up these courses online at their own pace and in the convenience of their own location. There will be online mentor support for the enrolled students, along with regular webinars and sessions.</p>
+                <p>We run some Lab-based Coding Bootcamps (at Edyst), the details of the program and dates will be announced before the launch of those Coding Bootcamps. The prerequisite of the Lab-based Coding Bootcamps is knowledge of any one programming language (Java/Python), which can be done online.</p>
+              </section>
+              <button class="ques_head">How do I enroll for the Edyst online programming course?</button>
+              <section class="content">
+                <p>Choose the course you want to enroll for here: <a href="https://edyst.com/course-list">edyst.com/course-list</a> and sign in.</p>
+                <p>You can experience the introduction module for FREE and make a payment at any stage to get full access.</p>
+                <p>Payments can be made using Credit Card, Debit Card or Online Net Banking.</p>
+              </section>
+              <button class="ques_head">How much does the course cost? Do you offer scholarships?</button>
+              <section class="content">
+                <p>The price of each course is different. Please visit the specific course page to know more about the pricing of the courses. You can find them here: <a href="https://edyst.com/course-list">edyst.com/course-list</a></p>
+                <p>If you need any additional details, please do write to team@edyst.com and we’ll be more than happy to help you.</p>
+              </section>
+              <button class="ques_head">What is the time commitment I need to make?</button>
+              <section class="content">
+                <p>Your success at taking up these courses depends on your practice and commitment. We expect you to make a time commitment of a minimum of 60 to 120 minutes every day. The course completion pace depends on the time commitment you make; we have seen some of the students finish the course in 3 months when they put in more time every day practicing coding on the platform.</p>
+                <p>The courses on Edyst are intense and require your complete commitment. You’ll be spending time watching videos, reading content and 90% of the time practicing coding on the platform. Just before the campus placement (on-campus and off-campus) season and before interview sessions you will be practicing and revising the coding 6 to 8 hours daily to reap the benefits of a successful job interview.</p>
+              </section>
+              <button class="ques_head">How long will it take for me to get a job after the course?</button>
+              <section class="content">
+                <p>This depends on the student. From our previous batches, the earliest ones got a job within the first month of completing the course, and the average time was 2 to 3 months.</p>
+                <p>Once you complete the course, you will continue to practice on the Edyst platform, building up a resume, practicing for interviews, networking, and more coding. We strongly encourage students to spend as much time as they can on the interview questions and FAQs on the Edyst platform, which will get you ready and make you confident to attend interviews.</p>
+                <p>Software development is a process. Your time on the Edyst platform is for learning the actual craft of software programming. Instead of worrying about job interviews we recommend you to spend time on practicing polishing your coding skills which will enhance your chances of getting a job.</p>
+              </section>
+              <button class="ques_head">What kind of support will I get from Edyst while I am on the course?</button>
+              <section class="content">
+                <p>You will have online mentor support while you are on the platform. You can seek clarifications on the concepts and also on the specific coding questions you are stuck on with your mentors on the Edyst Chat.</p>
+              </section>
+            </div>
+          </div>
+          <div class="y_combinator_sec">
+            <section class="y_sub_sec">
+              <h1 class="edyst_comb">edyst</h1>
+              <img class="y_combo_pic" src="https://cloudfront.edyst.com/prod/edyst-image-upoad/1582784884_ycombinator-logo-fb889e2e.png" alt="img">
+            </section>
+            <p class="y_comb_p">Edyst aims to enhance the employability quotient of the students in the country and the world. Edyst is a Y Combinator incubated startup (YC W19 Batch).</p>
+            <button class="read_more">Read More</button>
+          </div>
+  
+          <footer class="foot">
+            <section class="footer_li">
+              <ul class="foot_list">
+                <li class="foot_con foot_con_1">Contact Us</li>
+                <li class="foot_con">|</li>
+                <li class="foot_con foot_con_1">Pricing</li>
+                <li class="foot_con">|</li>
+                <li class="foot_con foot_con_1">Privacy</li>
+                <li class="foot_con">|</li>
+                <li class="foot_con foot_con_1">Terms of Service</li>
+                <li class="foot_con">|</li>
+                <li class="foot_con foot_con_1">Refund</li>
+                <li class="foot_con">|</li>
+                <li class="foot_con foot_con_1">Takedown Policy</li>
+              </ul>
+            </section>
+            <hr class="hr">
+            <section class="foot_img_sec">
+              <img class="footer_img" src="https://mpng.subpng.com/20180619/kyf/kisspng-computer-icons-linkedin-logo-5b2908e9b47fd3.9733794115294159137393.jpg" alt="img">
+              <img class="footer_img" src="https://www.pinclipart.com/picdir/middle/90-902496_youtube-logo-vector-circle-clipart.png" alt="img">
+              <img class="footer_img" src="https://toppng.com/uploads/preview/instagram-white-transparent-logo-11569054107itumygrnvn.png" alt="img">
+              <img class="footer_img" src="https://www.freepnglogos.com/uploads/logo-facebook-png/logo-facebook-facebook-logo-png-transparent-svg-vector-bie-supply-18.png" alt="img">
+            </section>
+          </footer>
+        <script>
+            function myFunction() {
+            var x = document.getElementById("disappear_this");
+            x.style.display = "none";
+            }
+
+            var txt = [
+            `"Zenoti"`,
+            `"Facebook"`,
+            `"Amazon"`,
+            `"Google"`,
+            `"Uber"`,
+            `"Tcs"`,
+            `"Infosys"`,
+            `"Capgemini"`
+            ];
+            var i = 0;
+            setInterval(function () {
+            document.getElementById("company").innerHTML = txt[i++];
+            if (i == txt.length) i = 0;
+            }, 1500);
+
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+            showDivs((slideIndex += n));
+            }
+
+            function showDivs(n) {
+            var j;
+            var x = document.getElementsByClassName("none");
+            if (n > x.length) {
+                slideIndex = 1;
+            }
+            if (n < 1) {
+                slideIndex = x.length;
+            }
+            for (j = 0; j < x.length; j++) {
+                x[j].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+            x[slideIndex - 1].style.display = "flex";
+            }
+
+            var coll = document.getElementsByClassName("ques_head");
+            var k;
+            for (k = 0; k < coll.length; k++) {
+            coll[k].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                content.style.display = "none";
+                } else {
+                content.style.display = "block";
+                ques_head.style.borderbottom = "none";
+                }
+            });
+            }
+        </script>
+    </body>
+</html>
